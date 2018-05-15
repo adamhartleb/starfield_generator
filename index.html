@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="canvas.js" defer></script>
+    <link rel="stylesheet" href="canvas.css">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="workspace" width="1500" height="600"></canvas>
+    <label for="xSlider">X Slider</label>
+    <input type="range" min="1" max="10" value="7" id="xSlider" name="xSlider">
+    <label for="ySlider">Y Slider</label>
+    <input type="range" min="1" max="10" value="5" id="ySlider" name="ySlider">
+    <label>Density</label>
+    <input type="range" min="1" max="5" value="3" id="s_density">
+    <input type="range" min="1" max="5" value="3" id="m_density">
+    <input type="range" min="1" max="5" value="3" id="l_density">
+    <label for="seed">Seed</label>
+    <input type="range" min="1" max="10" value="5" id="seed" name="seed">
+    <input id="showGrid" type="checkbox" checked="checked">
+    <div id="numOfStars"></div>
+</body>
+</html>
