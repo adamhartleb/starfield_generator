@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="canvas.js" defer></script>
+		<link rel="stylesheet" href="canvas.css">
+		<title>Starfield designer</title>
+	</head>
+	<body>
+		<canvas id="workspace" width="1500" height="600"></canvas>
+		<div>
+			<label for="xSlider">Grid X</label>
+			<input type="range" min="1" max="10" value="7" id="xSlider" name="xSlider"><span></span><br>
+			<label for="ySlider">Grid Y</label>
+			<input type="range" min="1" max="10" value="5" id="ySlider" name="ySlider"><span></span><br>
+			<label for="showGrid">Grid</label>
+			<input id="showGrid" type="checkbox" checked="checked">
+		</div>
+		<div>
+			<label for="s_density">Small stars</label>
+			<input type="range" min="1" max="5" value="5" id="s_density"><span></span><br>
+			<label for="m_density">Medium stars</label>
+			<input type="range" min="1" max="5" value="3" id="m_density"><span></span><br>
+			<label for="l_density">Large stars</label>
+			<input type="range" min="1" max="5" value="1" id="l_density"><span></span>
+		</div>
+		<div>
+			<label for="seed">Seed</label>
+			<input type="range" min="1" max="10" value="5" id="seed" name="seed"><span></span>
+		</div>
+	</body>
+</html>
